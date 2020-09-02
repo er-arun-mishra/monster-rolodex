@@ -2,7 +2,7 @@
   "name": "monster",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://er-arun-mishra.github.io/monster-rolodex",
+  "homepage": "http://er-arun-mishra.github.io/monster-rolodex",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn run-script build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
